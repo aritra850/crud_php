@@ -1,0 +1,127 @@
+body{
+    padding:0;
+    margin:0;
+    background: url(https://cache.careers360.mobi/media/colleges/reviews/2020/7/16/133637/IMG20190917185715.jpg) no-repeat;
+    background-size: 100% 150%;
+}
+.container{
+    height:100%;
+    width:70%;
+    min-width: 400px;
+    margin:auto;
+    margin-top:50px;
+    text-align: center;
+    color:rgb(0, 245, 253);
+    text-decoration: none;
+}
+#form{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+input{
+    margin:auto;
+    margin-top:10px;
+    margin-bottom:10px;
+    width:50%;
+    height:30px;
+    border:2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    outline: none;
+}
+.btn{
+    width:150px;
+    margin:auto;
+    margin-top: 25px;
+    margin-bottom:25px;
+    height:30px;
+    border:2px solid white;
+    border-radius: 20px;
+    background-color: black;
+    cursor: pointer;
+    padding:10px;
+    padding-top:5px;
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: white;
+    color:black;
+    border:2px solid black;
+}
+h1{
+    color:yellow;
+}
+h3{
+    color:rgb(10, 253, 140);
+}
+#msg{
+    color:GREEN;
+}
+lebel{
+    color:red;
+    width:300px;
+    height:50px;
+    background:white;
+}
+a{
+    margin-top:50px;
+    background-color: darkblue;
+}
+ @media(max-width:770px){
+     .container{
+         margin:0px;
+         width:100%;
+     }
+     #form{
+        width:90%;
+        height:100%;
+        margin:20px;
+     }
+     input{
+         margin:10px;
+         width:100%;
+     }
+     #btn{
+         width:70px;
+     }
+     h3{
+         color:rgb(253, 0, 97);
+     }
+     p{
+         background-color:rgb(12, 237, 245);
+         color:blue;
+     }
+ }
+
+ @media(max-width:400px){
+    .container{
+        min-width: 300px;
+        margin:0px;
+        width:100%;
+    }
+    #form{
+       width:95%;
+       height:100%;
+       margin:10px;
+    }
+    input{
+        margin:10px;
+        margin-right:10px;
+        margin-left:10px;
+        width:90%;
+    }
+    #btn{
+        width:70px;
+    }
+    h3{
+        color:rgb(253, 0, 97);
+    }
+    p{
+        background-color:rgb(12, 237, 245);
+        color:blue;    
+    }
+}
